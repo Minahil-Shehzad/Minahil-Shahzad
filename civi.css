@@ -182,4 +182,36 @@
    letter-spacing: 0em;
    border: none;
   }
-  
+  @media only screen and (max-width: 768px) {
+  .box1 {
+    display: block;
+  }
+  .Name {
+    float: none;
+    padding: 0;
+    text-align: center;
+  }
+  .image {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .Container {
+    width: 100%;
+  }
+  .Col1,
+  .Col2 {
+    width: 100%;
+    float: none;
+  }
+  .Col1 h4,
+  .Col2 h4 {
+    padding: 20px;
+    text-align: center;
+  }
+  .icons img {
+    padding: 0;
+  }
+  .conimg {
+    justify-content: center;
+  }
+}

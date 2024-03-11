@@ -182,10 +182,77 @@
    letter-spacing: 0em;
    border: none;
   }
-@media only screen and (min-width: 768px) {
-  .container{
-      grid-template-columns: 1fr 1fr;
-  }
+  
+  */
+
+  .container {
+    width: 100%;
+    max-width: 1190px;
+    margin: auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+.box1, .box2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image img {
+    width: 185px;
+    height: 185px;
+    border-radius: 17px;
+    border: 1px solid #ddd;
+}
+
+.name h1 {
+    color: rgb(7, 7, 80);
+    font-weight: 1000;
+    margin-bottom: 5px;
+}
+
+.name p {
+    color: rgb(7, 7, 80);
+    margin: 0;
+}
+
+.column {
+    width: 100%;
+    padding: 20px;
+}
+
+.col1 h4, .col2 h4 {
+    margin-top: 30px;
+    background-color: rgb(7, 7, 80);
+    color: antiquewhite;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.col1 p, .col2 p, .col1 li, .col2 li {
+    font-style: Sans-Serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    border: none;
+    padding: 8px;
+}
+
+.icons img {
+    width: 44px;
+    height: 44px;
+    display: block;
+    margin: auto;
+}
+
+.contact p {
+    color: rgb(92, 92, 248);
+    padding: 0 20px;
+    text-align: center;
+}
+
+.contact p:hover {
+    color: black;
+}
 

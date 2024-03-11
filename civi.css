@@ -182,20 +182,51 @@
    letter-spacing: 0em;
    border: none;
   }
- @media only screen and (max-width: 768px) {
-    .box1, .box2 {
-        display: block;
+@media only screen and (min-width: 768px) {
+    .box1 {
+        flex-direction: row;
     }
-    
-    .name, .image {
-        float: none;
+
+    .image, .name {
+        flex: 1;
         text-align: center;
-        padding: 0;
+        padding: 20px;
     }
-    
-    .image {
-        padding: 20px 0;
+
+    .box2 {
+        flex-direction: row;
     }
+
+    .column {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .box1, .box2 {
+        flex-direction: column;
+    }
+
+    .image img {
+        margin: auto;
+    }
+
+    .name {
+        text-align: center;
+    }
+
+    .col1 h4, .col2 h4 {
+        text-align: center;
+    }
+
+    .icons img {
+        margin: auto;
+    }
+
+    .contact {
+        text-align: center;
+    }
+}
     
     .column {
         width: 100%;

@@ -218,32 +218,41 @@ font-style:Sans-Serif;
   }
 }
 @media only screen and (max-width: 768px) {
-  .image {
-    float: none;
-    padding: 20px 0;
-    text-align: center;
+  .box1,
+  .box2 {
+    display: block;
   }
   .Name {
     float: none;
-    padding: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  .image {
+    padding: 20px 0;
     text-align: center;
   }
   .Container {
     width: 100%;
-  }
-  .box1 {
-    display: block;
+    box-shadow: none; /* Remove the box-shadow to make it more mobile-friendly */
   }
   .Col1,
   .Col2 {
     width: 100%;
     float: none;
+  }
+  .Col1 h4,
+  .Col2 h4 {
     padding: 20px;
+    text-align: center;
   }
   .icons img {
     padding: 0;
   }
   .conimg {
     justify-content: center;
+  }
+  .conimg img {
+    width: 30px; /* Adjust the icon size for smaller screens */
+    height: 30px;
   }
 }

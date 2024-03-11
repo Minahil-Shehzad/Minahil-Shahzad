@@ -182,21 +182,37 @@
    letter-spacing: 0em;
    border: none;
   }
-  @media only screen and (max-width: 768px) {
-    .container {
-        padding: 10px;
-    }
-
+ @media only screen and (max-width: 768px) {
     .box1, .box2 {
-        flex-direction: column;
+        display: block;
     }
-
-    .image img {
-        margin-bottom: 20px;
+    
+    .name, .image {
+        float: none;
+        text-align: center;
+        padding: 0;
     }
-
+    
+    .image {
+        padding: 20px 0;
+    }
+    
     .column {
         width: 100%;
-        margin-bottom: 20px;
+        float: none;
     }
+    
+    .column h4 {
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .icons img {
+        padding: 0;
+    }
+    
+    .contact {
+        justify-content: center;
+    }
+}
 }

@@ -3,143 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,
-    wght@1,100&family=IBM+Plex+Serif:ital@1&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="civi.css">
-    
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+
+         body {
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+            }
+       .container-box{
+    height: 100px;
+       }
+       .Deep{
+    --tw-text-opacity: 1;
+    color: rgb(246 91 102 / var(--tw-text-opacity));
+       }
+       .navi{
+        /* width: 822px; */
+        /* height: 44px; */
+       }
+       .text{
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    --tw-text-opacity: 1;
+    color: rgb(100 116 139 / var(--tw-text-opacity));
+    width: 102.1px;
+    height: 24px;
+    font-size: medium;
+       }
+       .bt{
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: 3.47em;
+        margin-left: 2.5rem;
+        width:11em;
+        border-radius: 7px;
+       }
+       .h-t{
+        height: 465px;
+       }
+       .row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+    </style>
 </head>
 <body>
-    <div class="Container">
-     <div class="box1">
-       <div class="image">
-            <img src="Pic.jpeg" alt="Profile">
-       </div>
 
-       <div class="Name">
-          <ul>
-           <li><h1> MINAHIL  SHAHZAD </h1></li>
-           <li><p>Software engineer</p></li>
-           </ul>
-       </div>
-     </div>
-     
-
-     <div class="box2">
-      <div class="Col1">
-             <h4>About me</h4>
-             <p>As a software engineering student,I m in a pivotal stage
-              of my academic and professional journey, where I m gaining
-              the knowledge and skills necessary to thrive in the field of
-              software development.Web development is a dynamic and exciting 
-              field that offers numerous opportunities for creativity,
-              problem-solving, and innovation. </p>
-
-              <div class="icons">
-                <div class="conimg">
-                  <img src="PHONE.png" alt="Phone">
-                    <p>+92 331-4701141</p>
-                  </div>
-                  <div class="conimg">
-                      <img src="MAIL.png" alt="Email">
-                      <p><a href="minahilshehzad04@gmail.com">minahil04@gmail.com</a></p>
-                  </div>  
-                  <div class="conimg">
-                    <img src="ADDRESS.png" alt="Address">
-                      <p>House-19 near Al-masoom park PCSIR society </p>
-                  </div>
-              </div>
-                      <h4>Expertise</h4>
-                      <ul>
-                          <li>Programming Skills</li>
-                          <li>Creativity</li>
-                          <li>Problem Solving </li>
-                          <li>Web development</li>
-                          <li>Critical Thinking</li>
-                      </ul>
-                 
-                      <h4>Projects</h4>
-                      <p>Makings projects relevant to Software engineering</p>
-                      <p>Projects in Programming Fundamental related to three games like</p>
-                      <p>Project in Object Oriented Programming related to Social Media </p>
-                      <p>Platform app </p>
-
-
+    <header class="container-box text-gray-600 body-font ">
+        <div class="container pt-10 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+          <a class="Deep flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <svg viewBox="0 0 272 34" fill="none" xmlns="http://www.w3.org/2000/svg" width="210" height="34" aria-label="DeepLearning.AI"><g fill="currentColor"><path d="M56.775 16.108c0 6.206-4.252 10.005-10.747 10.005H39.42V5.961h6.608c6.495 0 10.747 3.924 10.747 10.147zm-10.747 7.306c4.778 0 7.337-2.724 7.337-7.306 0-4.581-2.56-7.452-7.337-7.452H42.73v14.758h3.298z"></path><path d="M66.97 26.371c-4.602 0-8.007-3.244-8.007-8.26s3.259-8.226 8.006-8.226c4.571 0 7.804 3.159 7.804 7.856.007.535-.027 1.07-.103 1.6H62.412c.233 2.638 2.123 4.232 4.57 4.232 2.038 0 3.173-.988 3.786-2.234h3.582c-.915 2.802-3.448 5.032-7.38 5.032zm-4.541-9.683h8.878c-.056-2.462-2.007-4.03-4.484-4.03-2.24 0-4.044 1.525-4.394 4.03z"></path><path d="M84.938 26.371c-4.601 0-8.007-3.244-8.007-8.26s3.263-8.226 8.007-8.226c4.57 0 7.803 3.159 7.803 7.856a9.792 9.792 0 01-.116 1.6H80.367c.233 2.638 2.128 4.232 4.57 4.232 2.042 0 3.177-.988 3.786-2.234h3.582c-.902 2.802-3.435 5.032-7.367 5.032zm-4.541-9.683h8.878c-.056-2.462-2.007-4.03-4.48-4.03-2.244 0-4.048 1.525-4.398 4.03z"></path><path d="M104.917 9.885c4.221 0 7.541 3.245 7.541 8.166 0 4.92-3.32 8.32-7.541 8.32a7.277 7.277 0 01-3.095-.664 7.248 7.248 0 01-2.516-1.914v9.915h-3.319v-23.57h3.32v2.347a7.004 7.004 0 015.61-2.6zm-.729 2.871c-2.473 0-4.86 1.943-4.86 5.364 0 3.42 2.387 5.39 4.86 5.39 2.473 0 4.894-2.02 4.894-5.46 0-3.437-2.391-5.303-4.894-5.303v.009z"></path><path d="M119.074 5.961v17.484h6.841v2.668h-10.16V5.961h3.319z"></path><path d="M135.584 26.371c-4.602 0-8.007-3.244-8.007-8.26s3.263-8.226 8.007-8.226c4.57 0 7.803 3.159 7.803 7.856a9.927 9.927 0 01-.116 1.625h-12.258c.233 2.639 2.128 4.233 4.571 4.233 2.041 0 3.176-.988 3.785-2.235h3.582c-.902 2.777-3.435 5.007-7.367 5.007zm-4.541-9.683h8.878c-.056-2.462-2.007-4.03-4.48-4.03-2.244 0-4.048 1.525-4.398 4.03z"></path><path d="M153.116 9.885a6.864 6.864 0 013.088.633 6.839 6.839 0 012.475 1.946v-2.325h3.349v15.974h-3.349v-2.38a6.906 6.906 0 01-5.611 2.638c-4.165 0-7.514-3.39-7.514-8.32s3.353-8.166 7.562-8.166zm.699 2.87c-2.473 0-4.86 1.853-4.86 5.304 0 3.451 2.387 5.45 4.86 5.45 2.473 0 4.864-1.938 4.864-5.39 0-3.45-2.361-5.372-4.864-5.372v.009z"></path><path d="M169.72 26.114h-3.319V10.139h3.319v2.325c.928-1.595 2.534-2.579 4.804-2.579v3.438h-.863c-2.447 0-3.958 1.014-3.958 4.405l.017 8.386z"></path><path d="M188.966 17.191c0-2.93-1.602-4.435-4.019-4.435s-4.044 1.504-4.044 4.435v8.922h-3.319V10.14h3.319v1.826a6.16 6.16 0 014.774-2.08c3.755 0 6.582 2.347 6.582 6.812v9.416h-3.293v-8.922z"></path><path d="M196.049 5.905a2.105 2.105 0 011.309-1.931 2.117 2.117 0 012.294.458 2.102 2.102 0 01-1.48 3.588 2.109 2.109 0 01-1.509-.612 2.08 2.08 0 01-.614-1.503zm.431 4.234h3.319v15.974h-3.319V10.14z"></path><path d="M215.558 17.191c0-2.93-1.602-4.435-4.019-4.435s-4.048 1.504-4.048 4.435v8.922h-3.337V10.14h3.319v1.826a6.192 6.192 0 014.796-2.08c3.755 0 6.56 2.338 6.56 6.803v9.425h-3.289l.018-8.922z"></path><path d="M229.538 9.885c2.62 0 4.571 1.216 5.559 2.579v-2.325h3.349V26.37c0 4.35-2.823 7.629-7.829 7.629-4.282 0-7.454-2.119-7.864-5.656h3.289c.496 1.655 2.274 2.785 4.575 2.785 2.559 0 4.48-1.569 4.48-4.758v-2.664a6.903 6.903 0 01-5.559 2.665c-4.222 0-7.571-3.392-7.571-8.321 0-4.93 3.337-8.166 7.571-8.166zm.699 2.87c-2.478 0-4.864 1.853-4.864 5.304 0 3.452 2.386 5.45 4.864 5.45 2.477 0 4.86-1.938 4.86-5.39 0-3.45-2.357-5.372-4.86-5.372v.009z"></path><path d="M242.702 26.316a2.134 2.134 0 01-1.987-1.287 2.114 2.114 0 011.53-2.908 2.138 2.138 0 012.194.896c.235.349.361.76.361 1.18a2.096 2.096 0 01-1.289 1.956 2.11 2.11 0 01-.809.163z"></path><path d="M260.584 21.996h-8.477l-1.455 4.117h-3.453l7.251-20.2h3.846l7.247 20.2h-3.492l-1.467-4.117zM256.38 9.932l-3.341 9.365h6.612l-3.271-9.365z"></path><path d="M268.681 5.961H272v20.152h-3.319V5.961z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M16.643 33.145c-3.292 0-6.51-.972-9.246-2.793a16.588 16.588 0 01-6.13-7.438A16.507 16.507 0 01.32 13.34a16.55 16.55 0 014.555-8.485A16.665 16.665 0 0113.396.318a16.71 16.71 0 019.616.944 16.628 16.628 0 017.47 6.103 16.522 16.522 0 012.804 9.207c0 4.396-1.753 8.61-4.874 11.719a16.68 16.68 0 01-11.769 4.854zm.125-6.628c6.906 0 12.517-5.698 12.517-12.73 0-7.03-5.61-12.725-12.517-12.725-6.906 0-12.517 5.698-12.517 12.725 0 7.027 5.611 12.73 12.517 12.73zm-.125-2.918c-6.289 0-11.386-4.925-11.386-11.002C5.257 6.52 10.36 1.59 16.643 1.59c6.284 0 11.386 4.93 11.386 11.007s-5.097 11.002-11.386 11.002zm-.242-4.508c4.77 0 8.633-3.679 8.633-8.218 0-4.538-3.885-8.221-8.633-8.221-4.747 0-8.632 3.679-8.632 8.221 0 4.543 3.885 8.218 8.632 8.218zm.126-1.59c-3.734 0-6.76-3.207-6.76-7.16 0-3.954 3.018-7.16 6.75-7.16 3.734 0 6.76 3.206 6.76 7.16s-3.021 7.16-6.76 7.16h.01zm-.126-6.28c.729 0 1.44-.214 2.046-.617a3.67 3.67 0 001.356-1.646 3.652 3.652 0 00-.798-3.995 3.687 3.687 0 00-4.012-.794 3.679 3.679 0 00-1.653 1.35 3.655 3.655 0 00-.62 2.037c.002.971.39 1.902 1.08 2.59a3.698 3.698 0 002.601 1.076z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M16.643 33.145c-3.292 0-6.51-.972-9.246-2.793a16.588 16.588 0 01-6.13-7.438A16.507 16.507 0 01.32 13.34a16.55 16.55 0 014.555-8.485A16.665 16.665 0 0113.396.318a16.71 16.71 0 019.616.944 16.628 16.628 0 017.47 6.103 16.522 16.522 0 012.804 9.207c0 4.396-1.753 8.61-4.874 11.719a16.68 16.68 0 01-11.769 4.854zm.125-6.628c6.906 0 12.517-5.698 12.517-12.73 0-7.03-5.61-12.725-12.517-12.725-6.906 0-12.517 5.698-12.517 12.725 0 7.027 5.611 12.73 12.517 12.73zm-.125-2.918c-6.289 0-11.386-4.925-11.386-11.002C5.257 6.52 10.36 1.59 16.643 1.59c6.284 0 11.386 4.93 11.386 11.007s-5.097 11.002-11.386 11.002zm-.242-4.508c4.77 0 8.633-3.679 8.633-8.218 0-4.538-3.885-8.221-8.633-8.221-4.747 0-8.632 3.679-8.632 8.221 0 4.543 3.885 8.218 8.632 8.218z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M16.643 33.145c-3.292 0-6.51-.972-9.246-2.793a16.588 16.588 0 01-6.13-7.438A16.507 16.507 0 01.32 13.34a16.55 16.55 0 014.555-8.485A16.665 16.665 0 0113.396.318a16.71 16.71 0 019.616.944 16.628 16.628 0 017.47 6.103 16.522 16.522 0 012.804 9.207c0 4.396-1.753 8.61-4.874 11.719a16.68 16.68 0 01-11.769 4.854zm.125-6.628c6.906 0 12.517-5.698 12.517-12.73 0-7.03-5.61-12.725-12.517-12.725-6.906 0-12.517 5.698-12.517 12.725 0 7.027 5.611 12.73 12.517 12.73z"></path></g></svg>
+          </a>
+          <nav class="navi md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="text mr-5 hover:text-gray-900">Courses</a>
+            <a class="text mr-5 hover:text-gray-900">AI Newsletter</a>
+            <a class="text mr-5 hover:text-gray-900">Community</a>
+            <a class="text mr-5 hover:text-gray-900">Resources</a>
+            <a class="text mr-5 hover:text-gray-900">Company</a>
+            <button class=" bt btn btn-danger inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Start Learning
+          </nav>
+            </button>
         </div>
-              <div class="Col2">
-                <h4>Experience</h4>
-                <ul>
-                  <li>Developed and maintained responsive web applications using
-                 HTML, CSS, and JavaScript. Collaborated with designers and 
-                 back-end developers to implement user interface enhancements
-                  and new features.</li>
-                  <li>Collaborated with the Software Company in field of Web 
-                    Development and make Figmas</li>
-                </ul>
+      </header>
+    
+       <div class="clearfix container-fluid">
+      <section class="h-t relative overflow-hidden " style="background:linear-gradient(285.47deg, #002566 -11.15%, #7308DA -11.14%, #9800FF -8.21%, #161F7C -4.38%, #2E62ED 77.98%, #256BEC 80.23%, #1C74EB 84.75%, #20CAF2 101.67%)" id="hero"> 
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <p>Learn Generative AI</p>
+              <br class="hidden lg:inline-block">readymade gluten
+            </h1>
+            <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+            <div class="flex justify-center">
+              <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+              <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+          </div>
+        </div>
+      </section>
+    </div>
 
-                <h4>Languages</h4>
-                <ul>
-                  <li>English</li>
-                  <li>Urdu</li>
-                </ul>
-
-                <h4>Education</h4>
-                <table>
-                  <!-- Head -->
-                  <thead>
-                       <tr>    <!-- row -->
-                          <th>Institute Name</th>
-                          <th>Degree</th>
-                          <th>Percentage</th>       
-                          <th>Year</th>
-                      </tr>
-                  </thead>
-          
-                  <tbody>
-                  <!-- Body -->
-                      <tr>
-                          <td>COMSATS University Islamabad Lahore Campus</td>
-                          <td>BS Software Engineering</td>
-                          <td>3.54 CGPA</td>
-                          <td>2022-2024</td>
-                      </tr>
-                      <tr>
-                          <td>KIPS College for Girls Lahore near Johar town</td>
-                          <td>Intermediate</td>
-                          <td>92%</td>
-                          <td>2020-2022</td>
-                      </tr>
-                      <tr>
-                          <td>The Pakistan Foundation School</td>
-                          <td>Matric</td>
-                          <td>92%</td>
-                          <td>2020</td>
-                      </tr>
-          
-                  </tbody>
-          
-              </table>
-          </body>
-
-                <h4>Skills</h4>
-                <ul>
-                  <li> Programming languages: C, C++, JAVA, Python </li>
-                  <li> Web development : HTML,CSS</li>
-                  <li>Tools : MS World, MS Access, Git</li>
-                </ul>
+      <div class="container">
+      <div class="row row-cols-2 g-3" style="margin: auto;">
+        <div class="col">
+          <div class="card container mb-3" style="max-width: 1223px; max-height: 510px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.webp"
+                  alt="Trendy Pants and Shoes"
+                  class="img-fluid rounded-start"
+                />
               </div>
-
-     </div>
-
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </body>
 </html>
-
-
-
-
-
-
-
